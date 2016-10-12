@@ -1,0 +1,47 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"ModusEchoSwift\"><param name=\"ios-package\" value=\"ModusEchoSwift\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-add-swift-support": {
+            "PACKAGE_NAME": "com.moduscreate.testapp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.moduscreate.testapp"
+        },
+        "com-moduscreate-plugins-echoswift": {
+            "PACKAGE_NAME": "com.moduscreate.testapp"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "id": "com-moduscreate-plugins-echoswift.ModusEchoSwift",
+            "file": "plugins/com-moduscreate-plugins-echoswift/www/ModusEchoSwift.js",
+            "pluginId": "com-moduscreate-plugins-echoswift",
+            "clobbers": [
+                "modusechoswift"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-add-swift-support": "1.4.0",
+        "cordova-plugin-whitelist": "1.3.0",
+        "com-moduscreate-plugins-echoswift": "0.0.1"
+    }
+}
