@@ -7,13 +7,13 @@
         "files": {}
     },
     "installed_plugins": {
+        "com-moduscreate-plugins-echoswift": {
+            "PACKAGE_NAME": "com.moduscreate.testapp"
+        },
         "cordova-plugin-add-swift-support": {
             "PACKAGE_NAME": "com.moduscreate.testapp"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.moduscreate.testapp"
-        },
-        "com-moduscreate-plugins-echoswift": {
             "PACKAGE_NAME": "com.moduscreate.testapp"
         }
     },

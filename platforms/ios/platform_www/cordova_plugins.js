@@ -12,9 +12,9 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
+    "com-moduscreate-plugins-echoswift": "0.0.1",
     "cordova-plugin-add-swift-support": "1.4.0",
-    "cordova-plugin-whitelist": "1.3.0",
-    "com-moduscreate-plugins-echoswift": "0.0.1"
+    "cordova-plugin-whitelist": "1.3.0"
 };
 // BOTTOM OF METADATA
 });
